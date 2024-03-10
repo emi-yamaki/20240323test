@@ -1,0 +1,21 @@
+.form-table {
+    width: 100%;
+    height: 650px;
+}
+.attendance-table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.attendance-table th {
+    padding: 30px;
+    border-bottom: solid 4px #778ca3;
+    color: #778ca3
+}
+
+.attendance-table td {
+    padding: 30px;
+    border-bottom: solid 1px #778ca3;
+}

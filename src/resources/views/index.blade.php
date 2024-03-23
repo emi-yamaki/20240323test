@@ -24,6 +24,7 @@
             </form>
             <form class="attendance__button2" action="{{ route('rest.start') }}" method="get">
                 @csrf
+                
                 <button class="attendance__button-submit" type="submit">休憩開始</button>
             </form>
             <form class="attendance__button2" action="{{ route('rest.end') }}" method="get">
@@ -32,4 +33,5 @@
             </form>
         </div>
     </div>
-    @endsection
+
+@endsection
